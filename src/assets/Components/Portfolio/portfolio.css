@@ -1,0 +1,38 @@
+.f{
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ff{
+    font-size: 20px;
+    font-weight: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.qua{
+    display: flex;
+ gap :30px
+    
+}
+.port1{
+    height: 400px;
+    width: 500px;
+}
+.lap1{
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+   
+}
+i{
+   color:  #0796d6;
+   /* size-adjust: 50px; */
+   font-size: 40px;
+}
+.i{
+    display: flex;
+    gap: 100px;
+    justify-content:end;
+}

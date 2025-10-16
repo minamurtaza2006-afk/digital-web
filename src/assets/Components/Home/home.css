@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homeimg1{
+    width: 600px;
+    height: 500px;
+}
+.home-box{
+    display: flex;
+    gap: 20px;
+}
+.we{
+    font-size: 40px;
+    /* color: aliceblue; */
+}
+.digital{
+    font-size: 40px;
+ color: rgb(41, 95, 212);
+}
+.wel{
+       font-size: 40px;
+ color: rgb(41, 95, 212);
+}
+.hr1{
+     background-color: rgb(41, 95, 212);
+     height: 2px;
+
+}
+.butt1{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(41, 95, 212);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-self: end;
+
+transition: background-color 1s ease-out;
+/* transfrom 1s ease-out; */
+
+}
+.butt1:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}

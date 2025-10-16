@@ -1,0 +1,82 @@
+.the1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+   color: rgb(41, 95, 212);
+}
+.the2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.the3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(41, 95, 212);
+}
+.the4{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+}
+.the5{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+color: rgb(41, 95, 212);
+}
+.the6{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.the7{
+    height: 180px;
+    width: 390px;
+    background-color:darkslategray ;
+}
+.the8{
+    height: 180px;
+    width: 390px;
+     background-color: rgb(60, 109, 214);
+}
+.the9{
+    height: 180px;
+    width: 390px;
+    /* background-color: rgb(41, 95, 212); */
+}
+
+.num1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.domain1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.num2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.domain2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.num12{
+    display: flex;
+
+}
+.num3{
+    display: flex;
+    justify-content: center;
+}
+.domain3{
+    display: flex;
+    justify-content: center;
+}
