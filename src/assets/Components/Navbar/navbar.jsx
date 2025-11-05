@@ -8,7 +8,6 @@ import digital from '../../Components/Images/the-digital-impacts.png.png'
 const Navbar = () => {
     return (
         <nav>
-
             <ul className="navbar">
                 <img className="impact-img" src={digital} alt="Impact" />
                 <li><Link to="/">Home</Link></li>

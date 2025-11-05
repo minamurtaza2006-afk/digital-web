@@ -1,122 +1,202 @@
 .ak {
-    height: auto;
-    width: auto;
-    background-color: #0796d6;
+  height: auto;
+  width: 100%;
+  background-color: #0796d6;
 }
 
 .herf {
-    color: white;
-    font-size: 13px;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
 }
 
 .herf:hover {
-    color: black;
+  color: black;
 }
 
 .foot1 {
-    display: flex;
-    justify-content: space-around;
-    /* justify-content: center; */
-
-    /* justify-self: center; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
 }
 
 .com {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .follow-button {
-    background-color: transparent;
-    color: white;
-    border-color: aliceblue;
+  background-color: transparent;
+  color: white;
+  border: 1px solid aliceblue;
+  height: 36px;
+  width: 220px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
 
-    height: 36px;
-    width: 220px;
-    border-radius: 20px;
+.follow-button:hover {
+  background-color: white;
+  color: #0796d6;
 }
 
 .face {
-    text-decoration: azure;
+  text-decoration: none;
 }
 
 .amer {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    justify-self: center;
-    align-items: center;
-    border-radius: 50px;
-    height: 90px;
-    width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 90px;
+  width: 90px;
 }
 
 .flags {
-    display: flex;
-    justify-content: space-around;
-    /* justify-content: center; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .uk {
-    display: flex;
-
-    align-items: center;
-    text-align: center;
-    display: block;
-    unicode-bidi: isolate;
-    color: azure;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: azure;
 }
 
 .hr0 {
-    background-color: azure;
-    height: 2px;
+  background-color: azure;
+  height: 2px;
+  border: none;
 }
 
 .last {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
-.n-n{
-    border-style: none;
-    border-bottom: solid black 1px;
+
+.n-n {
+  border: none;
+  border-bottom: 1px solid black;
 }
+
+.map1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
 .info-box {
-    height: 450px;
-    width: 400px;
-    background-color: rgb(248, 245, 245);
-    border-radius: 30px;
-    border-bottom: solid #0796d6 16px;
-    border-top: solid #0796d6 11px;
-    box-shadow: #0796d6 4px 4px 4px 4px;
+  height: 450px;
+  width: 400px;
+  background-color: rgb(248, 245, 245);
+  border-radius: 30px;
+  border-bottom: solid #0796d6 16px;
+  border-top: solid #0796d6 11px;
+  box-shadow: #0796d6 4px 4px 4px 4px;
+  padding: 20px;
 }
-.name{
-    display: flex;
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.submit {
+  background-color: #0796d6;
+  color: azure;
+  border-radius: 30px;
+  border: none;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0579a7;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.map {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: end;
+}
+
+.m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .foot1,
+  .flags,
+  .map1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-box,
+  .map {
+    width: 90%;
+    height: auto;
+  }
+
+  .follow-button {
+    width: 80%;
+  }
+
+  .amer {
+    height: 70px;
+    width: 70px;
+  }
+
+  .map {
     justify-content: center;
-    /* justify-content:first baseline */
-    justify-self: first baseline;
-    padding-left: 30px;
-}
-.submit{
-    background-color: #0796d6;
-    color: azure;
-    border-radius: 30px;
-    border-style: none;
-    height:30px;
-    width: 80px;
-}
-.sub{
-padding-left: 30px;
-}
-.map{
-    height: 400px;
-    width: 400px;
-    display: flex;
-    justify-content: end;
-}
-.m{
-    display: flex;
-    justify-content: center;
-    align-items:center;
+  }
+
+  .ak {
     text-align: center;
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .map1 {
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .info-box,
+  .map {
+    width: 80%;
+    height: auto;
+  }
+
+  .follow-button {
+    width: 200px;
+  }
 }

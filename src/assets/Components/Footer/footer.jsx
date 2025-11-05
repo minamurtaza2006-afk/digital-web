@@ -17,9 +17,12 @@ const Footer = () => {
 
 
 
-        <div className="info-box">
+        <div className="map1">
           <br />
           <br />
+          <div className="info-box">
+
+        
           <div className="name">
             <form>
               <label htmlFor="name">Name:</label><br /><br />
@@ -52,12 +55,14 @@ const Footer = () => {
           <div className="sub">
             <button className="submit">Submit</button>
           </div>
+  </div>
 
+  <div>
           <div className="map">
             <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13608.53129291646!2d74.2294343866831!3d31.49303273479852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391902686a66d6a1%3A0xd126df77dd9ca0d!2sThokar%20Niaz%20Baig%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1758852819186!5m2!1sen!2s"
              width="600" height="450" style={{border:0 }}allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
+ </div>
 
 
 
